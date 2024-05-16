@@ -1,0 +1,154 @@
+/*Welcome to my website*/
+body {
+    margin: 0;
+}
+.head-font {
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+.header1 {
+    color: rgb(82, 91, 99);
+    font-size: 20px;
+}
+.smolheader1 {
+    color: rgb(119, 121, 129);
+    font-size: 14px;
+}
+.greyparagraph1 {
+    color:rgb(185, 185, 185)
+}
+.greyparagraph2 {
+    color:rgb(153, 153, 153)
+}
+body {
+    background-color: #efefef;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: rgb(101, 108, 117);
+}
+.background-image {
+    background: url(img/bg.jpg) 50% 50% fixed;
+    padding-top: 200px;
+    padding-bottom: 215px;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.button1 {
+    background-color: #03c78f;
+    border-color: #03c78f;
+    color: white;
+    padding: 12px 18px;
+    margin: 25px 2px;
+    border-radius: 75px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button1:hover {
+    opacity: 1;
+}
+
+.icon-size1 {
+    width: 8%;
+}
+.display1 {
+    width: 50%;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.display2 {
+    width: 26%;
+    display: inline-block;
+    padding-top: 50px;
+}
+.display2point2 {
+    display: inline-block
+}
+.display2paddingbot {
+    padding-bottom: 60px;
+}
+.display3 {
+    width: 15%;
+    display: inline-block;
+    padding-top: 50px;
+}
+.macbookimg {
+    width: 82%;
+}
+.email-box {
+    border-width: 100px;
+    border-color: #c1f3d7e5;
+    padding: 8px
+}
+input[type=text] {
+    border: 1px solid #c1f3d7e5;
+    border-radius: 4px;
+    width: 35%;
+    padding: 8px 12px;
+    background-color: #01bf86;
+    color: #c1f3d7e5;
+}
+input::placeholder{color: #c1f3d7e5;}
+input[type=submit] {
+    background-color: white;
+    border-color: white;
+    color: #03c78f;
+    padding: 12px 18px;
+    margin: 25px 2px;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 16;
+    opacity: 0.9;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {opacity: 1;}
+.white-box {
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    width: 20%;
+    padding: 25px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.invisiblebox {
+    width: 20%;
+    height: 40%;
+    display: inline-block;
+    margin-top: 0%;
+    padding-left: 10px;
+    vertical-align: top;
+}
+.round-profile1 {
+    border-color: rgb(206, 206, 206);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 65%;
+}
+.round-profile2 {
+    border-color: rgb(206, 206, 206);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 75%;
+}
+.footer {
+    color: #6c7c8b;
+    margin: 5px 25px;
+    font-size: 18px;
+    margin-left: 0%;
+}

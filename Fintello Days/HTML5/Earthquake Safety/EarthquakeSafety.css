@@ -1,0 +1,20 @@
+.background-img1 {
+    background: url(img/destruction.jpg) 50% no-repeat;
+    background-size: cover;
+}
+
+.line-color {
+    border-top: 2px rgb(33, 105, 36) solid;
+}
+.line-color1 {
+    border-top: 2px rgb(23, 156, 23) solid;
+}
+.stylized-h1 {
+    border-left: 10px rgb(23, 156, 23) solid;
+    padding-left: 10px;
+}
+.fontadjust {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}

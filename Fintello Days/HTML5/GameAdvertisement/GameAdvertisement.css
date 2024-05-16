@@ -1,0 +1,21 @@
+.background-image1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6) ), url(img/samuraiKYAAA~.jpg) no-repeat;
+    background-size: 100%;
+}
+.btn-custom {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+[class*="con"] {
+    text-align: center;
+    color: #fff;
+}
+hr {
+    border-top: 2px rgb(212, 35, 35) solid;
+}

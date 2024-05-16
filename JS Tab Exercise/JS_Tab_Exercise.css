@@ -1,0 +1,28 @@
+			.tab {
+				overflow: hidden;
+				border: 1px solid white;
+				background-color: lightgray;
+			}
+
+			.tabButton {
+				background-color: inherit;
+				float: left;
+				border: none;
+				outline: none;
+				padding: 14px 16px;
+				font-size: 17px;
+			}
+
+			.tabButton:hover {
+				background-color: gray;
+			}
+
+			.active {
+				background-color: gray;
+				color: white;
+			}
+
+			.tabcontent {
+				padding: 6px 12px;
+				border-top: none;
+			}

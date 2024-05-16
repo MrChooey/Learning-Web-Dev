@@ -1,0 +1,27 @@
+.banner{
+padding: 0%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.page-wrap{
+    max-width: 1000px;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.backgroundimg{
+    background: url(https://api.time.com/wp-content/uploads/2018/06/daniele-volpe-guatemala-volcano-eruption-3.jpg);
+    background-size: cover;
+}
+.line-color {
+    border-top: 2px black solid;
+}
+.stylized{
+    border-left: 10px red solid;
+    padding-left: 10px;
+}

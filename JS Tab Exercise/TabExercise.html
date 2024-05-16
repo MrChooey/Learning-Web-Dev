@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Tab Exercise</title>
+		<link rel="stylesheet" href="JS_Tab_Exercise.css" />
+		<style>
+			.tab {
+				overflow: hidden;
+				border: 1px solid white;
+				background-color: lightgray;
+			}
+
+			.tabButton {
+				background-color: inherit;
+				float: left;
+				border: none;
+				outline: none;
+				padding: 14px 16px;
+				font-size: 17px;
+			}
+
+			.tabButton:hover {
+				background-color: gray;
+			}
+
+			.active {
+				background-color: gray;
+				color: white;
+			}
+
+			.tabcontent {
+				padding: 6px 12px;
+				border-top: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="tab">
+			<button id="tab1" class="tabButton">Tab 1</button>
+			<button id="tab2" class="tabButton">Tab 2</button>
+			<button id="tab3" class="tabButton">Tab 3</button>
+		</div>
+
+		<div class="tabcontent1">
+			<h3>Tab 1 Content</h3>
+			<p>This is the content of tab 1</p>
+		</div>
+
+		<div class="tabcontent2">
+			<h3>Tab 2 Content</h3>
+			<p>This is the content of tab 2</p>
+		</div>
+
+		<div class="tabcontent3">
+			<h3>Tab 3 Content</h3>
+			<p>This is the content of tab 3</p>
+		</div>
+	</body>
+	
+	<script>
+		const tabText = document.querySelector("#tabText")
+
+		const tab1 = document.querySelector("#tab1")
+		const tab2 = document.querySelector("#tab2")
+		const tab3 = document.querySelector("#tab3")
+
+		tab1.onclick = activateTab1
+		tab2.onclick = activateTab2
+		tab3.onclick = activateTab3
+
+		function activateTab1() {
+			tabText.innerText = "This is the content of tab 1"
+		}
+		function activateTab2() {
+			tabText.innerText = "This is the content of tab 2"
+		}
+		function activateTab3() {
+			tabText.innerText = "This is the content of tab 3"
+		}
+	</script>
+</html>

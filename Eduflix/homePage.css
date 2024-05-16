@@ -1,0 +1,101 @@
+/* RON PATRICK G. RAMAS */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Micro+5&display=swap");
+
+p {
+	color: white;
+}
+.logo-title {
+	font-family: "Micro 5", sans-serif;
+	font-style: normal;
+}
+.leftBarButton {
+	background-color: #26292e;
+	border: none;
+	color: white;
+	padding: 0;
+	margin: 5px 0px 5px 0px;
+	text-align: left;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 200ms;
+	border-radius: 6px;
+}
+.leftBarButton:hover {
+	background-color: #1f2226;
+}
+.streamLink {
+	text-decoration: none;
+	transition: color 200ms;
+}
+.leftBarPadding {
+	padding-left: 10px;
+}
+.round-profile1 {
+	border-color: #176b87;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 50%;
+	width: 80%;
+}
+.round-profile2 {
+	border-radius: 50%;
+	width: 80%;
+}
+.livestreamBox {
+	position: relative;
+	border-radius: 5px;
+	width: 100%;
+}
+.overlay-text-left {
+	position: absolute;
+	transform: translate(0px, -180px);
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #64ccc5;
+	padding: 4px;
+	margin: 0;
+	border-radius: 3px;
+	text-align: center;
+}
+.overlay-text-right {
+	position: absolute;
+	transform: translate(225px, -180px);
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	padding: 4px;
+	margin: 0;
+	border-radius: 3px;
+	text-align: right;
+}
+.description {
+	color: rgb(143, 143, 143);
+	font-size: 14px;
+}
+.line {
+	border: 1px solid #616161;
+}
+.liveDetails {
+	margin: 0;
+}
+.liveDetails:hover {
+	color: #64ccc5;
+}
+.liveTitle {
+	color: white;
+	transition: color 150ms;
+}
+.liveTitle:hover {
+	color: #64ccc5;
+}
+.liveDot {
+	width: 9px;
+	height: 9px;
+	left: 169px;
+	top: 163px;
+	border-radius: 50%;
+
+	background: #64ccc5;
+}
+.centerDiv {
+	display: flex;
+	align-items: center;
+}

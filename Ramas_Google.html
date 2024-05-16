@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.text-container {
+			text-align: justify;
+			font-size: 0;
+		}
+
+		.text-container>span {
+			font-size: 1rem;
+		}
+
+		.left-aligned {
+			text-align: left;
+			display: inline-block;
+			width: 50%;
+			font-size: 1rem;
+		}
+
+		.right-aligned {
+			text-align: right;
+			display: inline-block;
+			width: 50%;
+			font-size: 1rem;
+		}
+
+		.section-container {
+			position: relative;
+		}
+
+		.search-bar-container {
+			display: flex;
+			flex-direction: row;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+
+		.search-bar {
+			width: 900px;
+			padding: 5px;
+			font-size: 16px;
+			margin-right: 15px;
+			margin-bottom: 20px;
+		}
+
+		.google-img {
+			width: 600px;
+			padding-top: 100px;
+			padding-bottom: 80px;
+		}
+
+		.buttons {
+			margin-top: 30px;
+			padding: 8px;
+		}
+	</style>
+	<title>Google</title>
+</head>
+
+<body>
+	<div class="text-container">
+		<span class="left-aligned">
+			<!-- Insert Links -->
+			<a href="">Web</a>&nbsp&nbsp&nbsp
+			<a href="">Images</a>&nbsp&nbsp&nbsp
+			<a href="">Videos</a>&nbsp&nbsp&nbsp
+			<a href="">Maps</a>&nbsp&nbsp&nbsp
+			<a href="">News</a>&nbsp&nbsp&nbsp
+			<a href="">Shopping</a>&nbsp&nbsp&nbsp
+			<a href="">Mail</a>&nbsp&nbsp&nbsp
+			<a href="">more</a>
+		</span>
+
+		<span class="right-aligned">
+			<a href="">!Google</a>&nbsp|
+			<a href="">Search settings</a>&nbsp|
+			<a href="">Sign in</a>&nbsp
+		</span>
+	</div>
+
+	<hr>
+
+	<div style="text-align: center;">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Google_2011_logo.png/800px-Google_2011_logo.png"
+			alt="Google" class="google-img">
+	</div>
+
+	<div class = "section-container">
+		<div class = "search-bar-container">
+			<input type="text" class="search-bar">
+			<span style = "position: absolute; right: 0; transform: translate(100%, 25%);"><a href="">Advanced Search</a></span>
+		</div>
+	</div>
+
+	<div style="text-align: center;">
+		<button type="button" class="buttons">Google Search</button>
+		<button type="button" class="buttons">I'm Feeling Lucky</button>
+	</div>
+
+	<div style="text-align: center; padding-top: 50px">
+		<p style="color: red; display: inline-block;">New! </p>
+		<p style="display: inline-block;">Explore the earth in 3D on <a href="">Google Maps.</a></p>
+	</div>
+
+	<div style="text-align: center; padding-top: 50px;">
+		<a href="">Advertising Programs</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="">Business Solutions</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="">About Google</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="">Go to Google Deutschland</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	</div>
+
+	<div style="text-align: center; padding-top: 50px;">
+		<p style="font-size: small; color: gray; display: inline-block;">&copy 2010</p>
+		<p style="font-size: small; display: inline-block;">- <a href="">Privacy</a></p>
+		</p>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+/* VIN MICHAEL SAGARINO */
+footer {
+	background-color: #454b72;
+	color: white;
+	text-align: center;
+	padding: 0.5em;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.about-us-section {
+	background-color: #1e1e1e;
+	color: #ffffff;
+	padding: 90px;
+}
+.logo-title {
+	font-style: normal;
+}

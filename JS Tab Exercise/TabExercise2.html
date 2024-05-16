@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>JS Tab Exercise</title>
+		<style>
+			.tab {
+				overflow: hidden;
+				border: 1px solid white;
+				background-color: lightgray;
+			}
+
+			.tabButton {
+				background-color: inherit;
+				float: left;
+				border: none;
+				outline: none;
+				padding: 14px 16px;
+				font-size: 17px;
+			}
+
+			.tabButton:hover {
+				background-color: gray;
+			}
+
+			.active {
+				background-color: gray;
+				color: white;
+			}
+
+			#tabcontent1 {
+				display: block;
+				padding: 6px 12px;
+				border-top: none;
+			}
+			#tabcontent2 {
+				display: none;
+				padding: 6px 12px;
+				border-top: none;
+			}
+			#tabcontent3 {
+				display: none;
+				padding: 6px 12px;
+				border-top: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="tab">
+			<button id="tab1" class="tabButton active">Tab 1</button>
+			<button id="tab2" class="tabButton">Tab 2</button>
+			<button id="tab3" class="tabButton">Tab 3</button>
+		</div>
+
+		<div id="tabcontent1">
+			<h3>Tab 1 Content</h3>
+			<p>This is the content of tab 1</p>
+		</div>
+
+		<div id="tabcontent2">
+			<h3>Tab 2 Content</h3>
+			<p>This is the content of tab 2</p>
+		</div>
+
+		<div id="tabcontent3">
+			<h3>Tab 3 Content</h3>
+			<p>This is the content of tab 3</p>
+		</div>
+
+		<script>
+			const tab1 = document.querySelector("#tab1")
+			const tab2 = document.querySelector("#tab2")
+			const tab3 = document.querySelector("#tab3")
+
+			tab1.onclick = displayTabContent1
+			tab2.onclick = displayTabContent2
+			tab3.onclick = displayTabContent3
+
+			const arrTabs = [tab1, tab2, tab3]
+
+			arrTabs.forEach((tab) => {
+				tab.addEventListener("click", () => {
+					arrTabs.forEach((tab) => {
+						tab.classList.remove("active")
+					})
+					tab.classList.add("active")
+				})
+			})
+
+			function displayTabContent1() {
+				tabcontent1.style.display = "block"
+				tabcontent2.style.display = "none"
+				tabcontent3.style.display = "none"
+			}
+			function displayTabContent2() {
+				tabcontent1.style.display = "none"
+				tabcontent2.style.display = "block"
+				tabcontent3.style.display = "none"
+			}
+			function displayTabContent3() {
+				tabcontent1.style.display = "none"
+				tabcontent2.style.display = "none"
+				tabcontent3.style.display = "block"
+			}
+		</script>
+	</body>
+</html>
